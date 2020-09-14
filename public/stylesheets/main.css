@@ -1,0 +1,23 @@
+body {
+     margin: 0px;
+     padding: 0px;
+     height: calc(100vh - 3px);
+     border: solid 1px orange;
+}
+
+.main-store-div {
+     border: solid 1px black;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+}
+
+.main-store-top-div {
+    border: solid 1px green;
+    height: 60px;
+}
+
+.main-store-work-area {
+    border: solid 1px red;
+    flex-grow: 1;
+}
