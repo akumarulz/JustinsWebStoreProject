@@ -12,10 +12,23 @@ body {
      flex-direction: column;
 }
 
+/*
+   TOP DIV
+   CONTAINS STORE TITLE, CART, HOME ICON AND MORE
+*/
 .main-store-top-div {
     border: solid 1px green;
     height: 60px;
+    display: flex;
+    flex-direction: row;
 }
+
+.main-store-top-store-div-left, .main-store-top-store-div-right, .main-store-top-store-div-centre {
+    flex-grow: 1;
+     border: solid 1px blue;
+}
+
+
 
 .main-store-work-area {
     border: solid 1px red;
