@@ -25,7 +25,18 @@ body {
 
 .main-store-top-store-div-left, .main-store-top-store-div-right, .main-store-top-store-div-centre {
     flex-grow: 1;
-     border: solid 1px blue;
+    border: solid 1px blue;
+}
+.main-store-top-store-div-right {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-store-top-store-div-left {
+     display:flex;
+     justify-content: flex-start;
+     align-items: center;
 }
 
 
@@ -33,4 +44,10 @@ body {
 .main-store-work-area {
     border: solid 1px red;
     flex-grow: 1;
+    overflow-y: auto;
+}
+
+.design-selection-main-container{
+    background: #f2f2f2;
+    height: 100%;
 }

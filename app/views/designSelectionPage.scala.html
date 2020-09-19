@@ -5,18 +5,27 @@
     <head>
         <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
         <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
+        <link rel="stylesheet" href="@routes.Assets.versioned("fontawesome/css/all.min.css")">
         <meta charset="UTF-8">
         <title>BLKMGK</title>
     </head>
     <body>
         <div class="main-store-div">
             <div class="main-store-top-div">
-                <div class="main-store-top-store-div-left"></div>
+                <div class="main-store-top-store-div-left">
+                    <div>
+                        <i class="fas fa-home"></i>
+                    </div>
+                </div>
                 <div class="main-store-top-store-div-centre"></div>
-                <div class="main-store-top-store-div-right"></div>
+                <div class="main-store-top-store-div-right">
+                    <div>
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
             </div>
             <div class="main-store-work-area">
-
+                @templates.designTemplate("this is text")
             </div>
         </div>
     </body>
