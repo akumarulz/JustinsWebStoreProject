@@ -32,11 +32,18 @@ body {
     justify-content: flex-end;
     align-items: center;
 }
+.top-store-div-left-icon-span {
+    padding-left: 50px;
+}
 
 .main-store-top-store-div-left {
      display:flex;
      justify-content: flex-start;
      align-items: center;
+}
+
+.top-store-div-right-icon-span {
+    padding-right: 50px;
 }
 
 
